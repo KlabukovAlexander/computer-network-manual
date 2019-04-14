@@ -1,0 +1,41 @@
+body {
+  background: #eee;
+  margin: 10;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 14px;
+}
+.main-block,
+.left-column,
+.logo,
+.footer {
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(100,100,100,.5);
+}
+
+.logo h1 {
+  position: absolute;
+  margin-left: 120px;
+  padding-bottom: 10px;
+}
+
+.main-block {
+  margin-top: 10px;
+  margin-left: 450px;
+  position: relative;
+}
+
+.left-column {
+  margin-top: 10px;
+  float: left;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  clear: both;
+}
