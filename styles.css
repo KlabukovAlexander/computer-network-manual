@@ -5,6 +5,7 @@ body {
   font-family: Arial;
   font-size: 14px;
 }
+
 .main-block,
 .left-column,
 .logo,
@@ -38,4 +39,20 @@ body {
   background-color: #333333;
   color: #ffffff;
   clear: both;
+}
+
+summary {
+  font-style: oblique;
+  font-family: Arial;
+  font-size: 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #3d7e9a;
+}
+
+li {
+  padding-bottom: 10px;
 }
