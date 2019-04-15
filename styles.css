@@ -27,7 +27,7 @@ body {
 .left-column {
   margin-top: 10px;
   float: left;
-  width: 400px;
+  max-width: 40rem;
   margin-bottom: 20px;
 }
 
@@ -38,24 +38,34 @@ body {
   clear: both;
 }
 
-img {
-  align-self: center;
-}
 
-summary {
-  font-style: oblique;
-  font-family: Arial;
-  font-size: 20px;
+.left-column summary {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
   list-style: none;
+  line-height: 1.6;
 }
 
-a {
+.left-column a {
   text-decoration: none;
   color: #3d7e9a;
 }
 
-li {
+.left-column li {
   padding-bottom: 10px;
+  max-width: 20rem;
+  font-size: 1rem;
+  font-family:sans-serif;
+  line-height: 1.6;
+
+}
+.main-block p {
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family:sans-serif;
+  box-sizing: border-box;
+  max-width: 60rem;
 }
 
 p {
