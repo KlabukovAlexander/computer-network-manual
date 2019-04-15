@@ -10,7 +10,6 @@ body {
 .logo,
 .footer {
   padding: 10px 20px 10px 20px;
-
 }
 
 .logo h1 {
@@ -39,6 +38,10 @@ body {
   clear: both;
 }
 
+img {
+  align-self: center;
+}
+
 summary {
   font-style: oblique;
   font-family: Arial;
@@ -53,4 +56,8 @@ a {
 
 li {
   padding-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
 }
