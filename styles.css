@@ -1,23 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0;
+}
 body {
-  margin: 10;
-  padding: 10px;
+  background-color: white;
+  margin: 0 auto;
   font-family: Arial;
   font-size: 14px;
 }
 
 .main-block,
 .left-column,
-.logo,
 .footer {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
 }
-
 .logo h1 {
   position: absolute;
+  margin-top: 20px;
   margin-left: 120px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 5px;
 
+}
+.logo img {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+}
 .main-block {
   margin-top: 10px;
   margin-left: 450px;
