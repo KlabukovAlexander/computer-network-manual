@@ -29,7 +29,6 @@ header:hover {
 .main-block {
   margin-top: 10px;
   margin-left: 450px;
-  position: relative;
 }
 
 .left-column {
@@ -66,7 +65,7 @@ header:hover {
 
 
 .left-column {
-  position: absolute;
+
 }
 
 .left-column summary {
@@ -106,6 +105,25 @@ header:hover {
   font-size: 1rem;
   box-sizing: border-box;
   max-width: 60rem;
+}
+
+.main-block li {
+  padding-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.main-block a {
+  text-decoration: none;
+  color: grey;
+}
+
+.main-block a:hover {
+  color: black;
+}
+
+.dedicated p {
+  padding: 10px;
 }
 
 p {
