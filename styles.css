@@ -1,7 +1,7 @@
 body {
   font-size: 14px;
   margin-top: 80px;
-  font-family: Georgia;
+  font-family: Calibri;
 }
 
 header {
@@ -108,7 +108,7 @@ header:hover {
 }
 
 .main-block li {
-  padding-bottom: 10px;
+  padding: 5px;
   font-size: 1rem;
   line-height: 1.6;
 }
